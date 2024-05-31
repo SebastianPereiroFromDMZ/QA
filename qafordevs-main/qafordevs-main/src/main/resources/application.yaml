@@ -1,0 +1,15 @@
+server:
+  port: 8787
+
+spring:
+  application:
+    name: "qafordevs"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_first?currentSchema=netology
+    username: postgres
+    password: 123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true

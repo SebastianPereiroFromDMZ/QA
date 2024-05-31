@@ -1,0 +1,14 @@
+server:
+  port: 8787
+spring:
+  application:
+    name: qafordevs-reactive
+
+  r2dbc:
+    url:  r2dbc:postgresql://localhost:5432/qafordevs_reactive
+    username: postgres
+    password: 123
+  flyway:
+    url: jdbc:postgresql://localhost:5432/qafordevs_reactive
+    user: postgres
+    password: 123

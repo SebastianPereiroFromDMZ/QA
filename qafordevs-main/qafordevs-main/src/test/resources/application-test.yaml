@@ -1,0 +1,13 @@
+
+spring:
+  #это ниже закоментирововали потому что будем подтягивать докер контейнер с постгресом, а ниже мы работали
+  #с локальной БД и были настройки для доступа в реальную БД на компьютере (отдельная БД для тестов)
+  #datasource:
+    #url: jdbc:postgresql://localhost:5432/test?currentSchema=public
+    #username: postgres
+    #password: 123
+    #driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
